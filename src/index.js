@@ -1,15 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import NavSection from './components/layout/nav'
+import HeaderSection from './components/layout/header'
+import BodySection from './components/layout/body'
+import FooterSection from './components/layout/footer'
+import CopyrightSection from './components/layout/copyright'
 
-import App from './components/app';
-import reducers from './reducers';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+class App extends Component {
+    constructor(props) {
+        super(props)
+    }
 
-ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
-  </Provider>
-  , document.querySelector('.container'));
+    render() {
+        return (
+            
+            <div className='container'>
+                <NavSection />
+                <HeaderSection />
+                <BodySection />
+                <FooterSection />
+                <CopyrightSection />    
+            </div>
+            
+            
+        )
+    }
+}
+
+
+ReactDOM.render(<App />, document.getElementById('root'))
+
+

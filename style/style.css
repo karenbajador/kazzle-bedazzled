@@ -1,0 +1,124 @@
+/* ROOT Container  */
+.container {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    max-width: 680px;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center;
+    background-color: #EBECED;
+    bottom: 30px;  
+}
+
+
+/* LAYOUT: Main Sections  */
+
+.layout-nav-section {
+    background-color: #A2AAB0;
+}
+
+.layout-nav {
+    margin: 0 auto; /* Centering the div */
+    max-width: 680px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
+.layout-header {
+    margin: 0 auto; /* Centering the div */
+    background-color: #EBECED;
+    padding: 15px 0px 15px 0px ;
+    max-width: 680px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}    
+
+.layout-body-section {
+    margin: 0 auto; /* Centering the div */
+    max-width: 680px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red; 
+    background-color: #EBECED;  
+    height: 100%; 
+}
+
+.layout-footer-section {
+  bottom: 30px;  
+  width: 100%;
+  background-color: #A2AAB0;
+  color: #EBECED;
+  font-size: 12px;
+  text-align: center;
+}
+
+.layout-footer {
+    margin: 0 auto; /* Centering the div */
+    max-width: 680px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
+.layout-copyright {
+  bottom: 0;
+  width: 100%;
+  height: 30px; /* Set the fixed height of the footer here */
+  line-height: 30px; /* Vertically center the text there */
+  background-color: #3E3E3B;
+  color: #EBECED;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+
+/* Body  Widgets */
+.widgets-body-author {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
+.widgets-body-latest-posts {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
+.widgets-body-popular-posts {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
+.widgets-body-ads {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
+/* Footer  Widgets */
+.widgets-footer-about {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
+.widgets-footer-latest-tweets {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
+.widgets-footer-contact {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;     
+}
+
